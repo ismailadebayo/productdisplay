@@ -1,0 +1,61 @@
+nav{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+li{
+    list-style-type: none;
+    position: relative;
+    right: 200px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+
+    
+}
+.nav-button{
+border: none;
+padding: 10px 25px;
+position: relative;
+top: -10px;
+
+}
+
+button{
+/* border: none; */
+padding: 5px 15px;
+}
+.button-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 120px;
+}
+
+.search-box{
+    width: 60vw;
+    height: 70vh;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.search-center{
+position:relative;
+top: 170px;
+left: 200px
+}
+input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: grey;
+}
