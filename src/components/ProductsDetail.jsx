@@ -7,7 +7,7 @@ import Search from "./Search"
 
 const ProductsDetails = () => {
   const [products, setProducts] = useState([])
-  const [searchField, setSearchField] = useState('')
+  const [searchField, setSearchField] = useState(false)
 
   const getInput=(e)=>{
     setSearchField(e.target.value)
